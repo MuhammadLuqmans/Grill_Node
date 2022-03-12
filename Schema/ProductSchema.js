@@ -11,14 +11,10 @@ const ProductSchema = mongoose.Schema({
     category:{
         type:String,
     },
-    colors: [
-        {
-        colorName: {
-            type: String,
-        },
+    colors: {
+        type:String
     },
-    ],
-    discreption: {
+    dispcription: {
         type: String,
     },
     sku: {
